@@ -82,3 +82,23 @@ export const ReadMore = styled.button`
   color: #ff5722;
   cursor: pointer;
 `;
+
+export const SliderInner = styled.div`
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+`;
+
+export const ArrowLeft = styled.div`
+  position: absolute;
+  left: 0;
+  top: 50%;
+  cursor: pointer;
+`;
+
+export const ArrowRight = styled.div`
+  position: absolute;
+  right: 0;
+  top: 50%;
+  cursor: pointer;
+`;

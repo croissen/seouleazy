@@ -5,7 +5,7 @@ const places = [
   { title: "남산타워", img: "/img/place/namsan1.png", desc: "서울의 랜드마크, 남산에서 서울 전경을 즐기세요." },
   { title: "경복궁", img: "/img/place/kbg1.png", desc: "조선의 대표 궁궐, 전통과 역사를 느껴보세요." },
   { title: "한강", img: "/img/place/river.jpg", desc: "힐링 가득한 한강으로 놀러오세요." },
-  { title: "롯데월드", img: "/img/place/lotte.jpg", desc: "놀이공원과 쇼핑을 한 곳에서 즐기세요." },
+  { title: "롯데월드", img: "/img/place/river.jpg", desc: "놀이공원과 쇼핑을 한 곳에서 즐기세요." },
   { title: "홍대", img: "/img/place/river.jpg", desc: "젊음과 예술이 가득한 홍대 거리." },
   { title: "명동", img: "/img/place/river.jpg", desc: "젊음과 예술이 가득한 명동 거리." },
 ];
