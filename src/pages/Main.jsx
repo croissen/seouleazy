@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import * as S from "./Main.styles";
 import Slideshow from "../components/Slideshow";
-import HotPlace from "../components/HotPlace";
-import TastyKorea from "../components/TastyKorea";
+import HotPlace from "../components/HP";
+import TastyKorea from "../components/TK";
+import More from "../components/More";
 
 function Main() {
+  // 마운트 시 상단으로 스크롤
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, []);
+
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   const sharePage = async () => {
@@ -28,6 +34,7 @@ function Main() {
       <Slideshow />
       <HotPlace />
       <TastyKorea />
+      <More />
 
       {/* 공유 버튼 */}
       <S.TopButton style={{ bottom: "60px" }} onClick={sharePage}>

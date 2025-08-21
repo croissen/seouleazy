@@ -32,27 +32,27 @@ export const SubTitle = styled.p`
 `;
 
 export const PlacesWrapper = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 20px;
-  position: relative;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+`;
 
-  @media (max-width: 768px) {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-  }
+export const SliderInner = styled.div`
+  display: flex;
 `;
 
 export const FoodCard = styled.div`
+  flex: 0 0 calc(33.3333% - 13.3333px);
   background: #f7f7f9;
   border-radius: 12px;
   padding: 12px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 
   @media (max-width: 768px) {
     flex: 0 0 80%;
-    display: ${(p) => (p.isActive ? "block" : "none")};
   }
 `;
 
@@ -66,57 +66,17 @@ export const FoodImg = styled.img`
 export const FoodName = styled.h3`
   font-size: 1.1rem;
   font-weight: 600;
-  margin: 8px 0 4px 0;
+  margin: 8px 0 4px;
 `;
 
 export const FoodPrice = styled.p`
   font-size: 0.9rem;
-  font-weight: 500;
-  color: #333;
+  color: #555;
 `;
-
 export const ReadMore = styled.button`
   font-size: 0.8rem;
   background: none;
   border: none;
   color: #ff5722;
   cursor: pointer;
-`;
-
-export const ArrowLeft = styled.button`
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0,0,0,0.3);
-  border: none;
-  border-radius: 50%;
-  color: white;
-  padding: 8px;
-  cursor: pointer;
-  z-index: 10;
-
-  @media (max-width: 768px) {
-    display: block;
-  }
-`;
-
-export const ArrowRight = styled.button`
-  display: none;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0,0,0,0.3);
-  border: none;
-  border-radius: 50%;
-  color: white;
-  padding: 8px;
-  cursor: pointer;
-  z-index: 10;
-
-  @media (max-width: 768px) {
-    display: block;
-  }
 `;
