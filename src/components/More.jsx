@@ -5,7 +5,7 @@ import * as S from "./More.styles";
 function More() {
   return (
     <S.Section>
-      <S.ContentBlock bgImg="/img/calc.jpg">
+      <S.ContentBlock bgImg={process.env.PUBLIC_URL + "/img/calc.jpg"}>
         <h2>합리적인 한국 여행을 위하여</h2>
         <p>여행비를 시뮬레이션 하세요!</p>
         <Link to="/trip-calc">
@@ -13,7 +13,7 @@ function More() {
         </Link>
       </S.ContentBlock>
 
-      <S.ContentBlock bgImg="/img/tip.jpg">
+      <S.ContentBlock bgImg={process.env.PUBLIC_URL + "/img/tip.jpg"}>
         <h2>모르면 후회할 다양한 정보</h2>
         <p>미리 확인하세요!</p>
         <Link to="/honey-tip">

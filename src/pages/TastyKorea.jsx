@@ -7,7 +7,7 @@ function TastyKorea() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/data/tastykorea.json')
+    fetch(process.env.PUBLIC_URL + '/data/tastykorea.json')
       .then(res => res.json())
       .then(data => setFoods(data))
       .catch(err => console.error(err));
@@ -27,7 +27,7 @@ function TastyKorea() {
       <S.PlacesWrapper>
         {foods.map((food) => (
           <S.PlaceCard key={food.id} onClick={() => goDetail(food.id)}>
-            <S.PlaceImg src={food.img} alt={food.name} />
+            <S.PlaceImg src={process.env.PUBLIC_URL + food.img} alt={food.name} />
             <S.PlaceTitle>{food.name}</S.PlaceTitle>
             <S.PlaceDesc>{food.price}</S.PlaceDesc>
           </S.PlaceCard>

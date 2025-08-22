@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import * as S from "./Slideshow.styles";
 
 const images = [
-  "/img/place/namsan1.png",
-  "/img/place/river.jpg",
-  "/img/place/kbg1.png",
+  process.env.PUBLIC_URL + "/img/place/namsan1.png",
+  process.env.PUBLIC_URL + "/img/place/river.jpg",
+  process.env.PUBLIC_URL + "/img/place/kbg1.png",
 ];
 
 function Slideshow() {

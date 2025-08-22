@@ -8,7 +8,7 @@ function HP() {
 
   // JSON 데이터 불러오기
   useEffect(() => {
-    fetch("/data/hotplace.json") // public/data/hotplace.json 위치
+    fetch(process.env.PUBLIC_URL + "/data/hotplace.json")
       .then(res => res.json())
       .then(data => setPlaces(data.slice(0, 5))) // 상위 5개만
       .catch(err => console.error(err));
@@ -34,7 +34,7 @@ function HP() {
       <S.PlacesWrapper>
         {places.map((place) => (
           <S.PlaceCard key={place.id} onClick={() => goDetail(place.id)}>
-            <S.PlaceImg src={place.img} alt={place.title} />
+            <S.PlaceImg src={process.env.PUBLIC_URL + place.img} alt={place.title} />
             <S.PlaceTitle>{place.title}</S.PlaceTitle>
             <S.PlaceDesc>{place.desc}</S.PlaceDesc>
           </S.PlaceCard>

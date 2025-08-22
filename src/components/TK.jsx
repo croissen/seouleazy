@@ -8,7 +8,7 @@ function TK() {
 
   // JSON 데이터 불러오기 (상위 5개만)
   useEffect(() => {
-    fetch("/data/tastykorea.json") // public/data/tastykorea.json
+    fetch(process.env.PUBLIC_URL + "/data/tastykorea.json")
       .then(res => res.json())
       .then(data => setFoods(data.slice(0, 5)))
       .catch(err => console.error(err));
@@ -37,7 +37,7 @@ function TK() {
       <S.PlacesWrapper>
         {foods.map((food) => (
           <S.FoodCard key={food.id} onClick={() => goDetail(food.id)}>
-            <S.FoodImg src={food.img} alt={food.name} />
+            <S.FoodImg src={process.env.PUBLIC_URL + food.img} alt={food.name} />
             <S.FoodName>{food.name}</S.FoodName>
             <S.FoodPrice>{food.price}</S.FoodPrice>
           </S.FoodCard>

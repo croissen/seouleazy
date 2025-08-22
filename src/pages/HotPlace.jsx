@@ -7,7 +7,7 @@ function HotPlace() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/data/hotplace.json')
+    fetch(process.env.PUBLIC_URL + '/data/hotplace.json')
       .then(res => res.json())
       .then(data => setPlaces(data))
       .catch(err => console.error(err));
@@ -27,7 +27,7 @@ function HotPlace() {
       <S.PlacesWrapper>
         {places.map((place) => (
           <S.PlaceCard key={place.id} onClick={() => goDetail(place.id)}>
-            <S.PlaceImg src={place.img} alt={place.title} />
+            <S.PlaceImg src={process.env.PUBLIC_URL + place.img} alt={place.title} />
             <S.PlaceTitle>{place.title}</S.PlaceTitle>
             <S.PlaceDesc>{place.desc}</S.PlaceDesc>
           </S.PlaceCard>

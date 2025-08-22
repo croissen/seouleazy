@@ -10,7 +10,7 @@ import TripCalc from './pages/TripCalc';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/seoulez">
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />

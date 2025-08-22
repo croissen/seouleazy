@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import * as S from "./Header.styles";
 
 const Header = () => {
@@ -11,17 +11,16 @@ const Header = () => {
   // 스크롤 시 배경, 드롭다운 닫기
   useEffect(() => {
     const handleScroll = () => {
-      // 메인 화면('/')일 때만 스크롤 반영
       if (location.pathname === "/") {
         setScrolled(window.scrollY > 50);
       } else {
-        setScrolled(true); // 다른 페이지에서는 항상 검은색
+        setScrolled(true);
       }
       setMobileMenuOpen(false);
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // 초기값 세팅
+    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, [location.pathname]);
 
@@ -45,34 +44,48 @@ const Header = () => {
 
   return (
     <S.HeaderContainer scrolled={scrolled}>
-      <S.Logo href="/">SeoulEZ</S.Logo>
+      {/* 로고 */}
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <S.Logo>SeoulEZ</S.Logo>
+      </Link>
 
+      {/* 데스크탑 메뉴 */}
       <S.Nav className="desktop">
-        <S.NavItem href="/hot-place">Hot-Place</S.NavItem>
-        <S.NavItem href="/tasty-korea">Tasty-Korea</S.NavItem>
-        <S.NavItem href="/trip-calc">Trip-Calc</S.NavItem>
-        <S.NavItem href="/honey-tip">Honey-Tip</S.NavItem>
+        <Link to="/hot-place" style={{ textDecoration: "none" }}>
+          <S.NavItem>Hot-Place</S.NavItem>
+        </Link>
+        <Link to="/tasty-korea" style={{ textDecoration: "none" }}>
+          <S.NavItem>Tasty-Korea</S.NavItem>
+        </Link>
+        <Link to="/trip-calc" style={{ textDecoration: "none" }}>
+          <S.NavItem>Trip-Calc</S.NavItem>
+        </Link>
+        <Link to="/honey-tip" style={{ textDecoration: "none" }}>
+          <S.NavItem>Honey-Tip</S.NavItem>
+        </Link>
       </S.Nav>
 
       <S.Contact className="desktop">Contact</S.Contact>
 
+      {/* 모바일 햄버거 버튼 */}
       <S.MobileMenuButton id="mobile-hamburger" onClick={toggleMobileMenu}>
         &#x2630;
       </S.MobileMenuButton>
 
+      {/* 모바일 드롭다운 */}
       <S.MobileDropdown ref={dropdownRef} isOpen={mobileMenuOpen}>
-        <S.NavItem href="/hot-place" onClick={handleMenuItemClick}>
-          Hot-Place
-        </S.NavItem>
-        <S.NavItem href="/tasty-korea" onClick={handleMenuItemClick}>
-          Tasty-Korea
-        </S.NavItem>
-        <S.NavItem href="/trip-calc" onClick={handleMenuItemClick}>
-          Trip-Calc
-        </S.NavItem>
-        <S.NavItem href="/contact" onClick={handleMenuItemClick}>
-          Contact
-        </S.NavItem>
+        <Link to="/hot-place" style={{ textDecoration: "none" }}>
+          <S.NavItem onClick={handleMenuItemClick}>Hot-Place</S.NavItem>
+        </Link>
+        <Link to="/tasty-korea" style={{ textDecoration: "none" }}>
+          <S.NavItem onClick={handleMenuItemClick}>Tasty-Korea</S.NavItem>
+        </Link>
+        <Link to="/trip-calc" style={{ textDecoration: "none" }}>
+          <S.NavItem onClick={handleMenuItemClick}>Trip-Calc</S.NavItem>
+        </Link>
+        <Link to="/contact" style={{ textDecoration: "none" }}>
+          <S.NavItem onClick={handleMenuItemClick}>Contact</S.NavItem>
+        </Link>
       </S.MobileDropdown>
     </S.HeaderContainer>
   );
