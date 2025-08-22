@@ -18,10 +18,6 @@ function HP() {
     navigate(`/hot-place-detail/${id}`);
   };
 
-  const goHotPlacePage = () => {
-    navigate("/hot-place"); // Read More 버튼 클릭 시 이동
-  };
-
   return (
     <S.Section>
       <S.TitleWrapper>

@@ -61,16 +61,16 @@ const Header = () => {
       </S.MobileMenuButton>
 
       <S.MobileDropdown ref={dropdownRef} isOpen={mobileMenuOpen}>
-        <S.NavItem href="#hot-place" onClick={handleMenuItemClick}>
+        <S.NavItem href="/hot-place" onClick={handleMenuItemClick}>
           Hot-Place
         </S.NavItem>
-        <S.NavItem href="#tasty-korea" onClick={handleMenuItemClick}>
+        <S.NavItem href="/tasty-korea" onClick={handleMenuItemClick}>
           Tasty-Korea
         </S.NavItem>
-        <S.NavItem href="#trip-calc" onClick={handleMenuItemClick}>
+        <S.NavItem href="/trip-calc" onClick={handleMenuItemClick}>
           Trip-Calc
         </S.NavItem>
-        <S.NavItem href="#contact" onClick={handleMenuItemClick}>
+        <S.NavItem href="/contact" onClick={handleMenuItemClick}>
           Contact
         </S.NavItem>
       </S.MobileDropdown>

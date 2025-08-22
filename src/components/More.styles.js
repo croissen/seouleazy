@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   min-height: 100vh;
-  padding: 5% 10%;
+  padding: 10% 10%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
+  gap: 100px;
 
   @media (max-width: 768px) {
     flex-direction: column; /* 모바일에서는 세로 정렬 */
@@ -16,7 +16,7 @@ export const Section = styled.section`
 `;
 
 export const ContentBlock = styled.div`
-  flex: 1;
+  flex: 1; /* 남는 공간 채우기 */
   text-align: center;
   border-radius: 12px;
   padding: 100px 20px;
@@ -29,18 +29,14 @@ export const ContentBlock = styled.div`
       : "#f9f9f9"};
   color: ${(p) => (p.bgImg ? "white" : "inherit")};
 
-  /* 사이즈 고정 */
-  max-width: 420px;   /* PC에서 블록이 너무 넓어지지 않도록 제한 */
-  min-width: 320px;   /* 최소 너비 확보 */
+  width: 100%; /* 화면 너비 맞춤 */
+  max-width: 100%; /* 제한 해제 */
+  min-width: 0; /* flex에서 축소 가능 */
 
-  /* 모바일 대응 */
   @media (max-width: 768px) {
-    width: 100%;      /* 세로 정렬일 때는 꽉 채우기 */
-    max-width: none;  /* 제한 해제 */
-    min-width: auto;
+    width: 100%;
   }
 
-  /* 어두운 오버레이 */
   &::before {
     content: "";
     display: ${(p) => (p.bgImg ? "block" : "none")};
