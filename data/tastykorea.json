@@ -1,0 +1,21 @@
+[
+  { "id": "bulgogi", "name": "불고기", "price": "₩15,000", "img": "/img/food/bulgogi.jpg", "desc": "달콤한 양념에 재운 소고기 구이", "content": "전통적인 한국식 불고기입니다. 밥과 함께 드시면 최고의 맛을 즐길 수 있습니다." },
+  { "id": "bibimbap", "name": "비빔밥", "price": "₩10,000", "img": "/img/food/bibimbap.jpg", "desc": "여러 가지 나물과 고추장 소스가 어우러진 밥", "content": "다양한 나물과 고기, 계란 등을 섞어 먹는 건강한 한식 대표 메뉴입니다." },
+  { "id": "tteokbokki", "name": "떡볶이", "price": "₩5,000", "img": "/img/food/tteokbokki.png", "desc": "매콤달콤한 떡볶이", "content": "한국 길거리 음식의 대표주자. 매콤한 소스와 쫄깃한 떡이 특징입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." },
+  { "id": "kimchijjige", "name": "김치찌개", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "한국식 매운 김치찌개", "content": "숙성된 김치와 돼지고기, 두부를 넣어 끓인 얼큰한 찌개입니다." }
+]
