@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/seoulez/static/css/main.e6c13ad2.css",
-    "main.js": "/seoulez/static/js/main.71df566c.js",
+    "main.js": "/seoulez/static/js/main.2b036b2f.js",
     "static/js/453.03da18e0.chunk.js": "/seoulez/static/js/453.03da18e0.chunk.js",
     "index.html": "/seoulez/index.html",
     "main.e6c13ad2.css.map": "/seoulez/static/css/main.e6c13ad2.css.map",
-    "main.71df566c.js.map": "/seoulez/static/js/main.71df566c.js.map",
+    "main.2b036b2f.js.map": "/seoulez/static/js/main.2b036b2f.js.map",
     "453.03da18e0.chunk.js.map": "/seoulez/static/js/453.03da18e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.71df566c.js"
+    "static/js/main.2b036b2f.js"
   ]
 }
