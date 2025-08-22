@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HotPlace from './pages/HotPlace';
 import HotPlaceDetail from './pages/HotPlaceDetail';
 import Main from './pages/Main';
@@ -16,9 +16,9 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/hot-place" element={<HotPlace />} />
         <Route path="/hot-place-detail/:id" element={<HotPlaceDetail />} />
-        <Route path="tasty-korea" element={<TastyKorea/>}/>
+        <Route path="/tasty-korea" element={<TastyKorea/>}/>
         <Route path="/tasty-korea-detail/:id" element={<TastyKoreaDetail />} />
-        <Route path="trip-calc" element={<TripCalc/>}/>
+        <Route path="/trip-calc" element={<TripCalc/>}/>
       </Routes>
       <Footer />
     </Router>
