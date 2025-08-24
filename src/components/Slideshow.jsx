@@ -2,15 +2,15 @@ import React, { useState, useEffect } from "react";
 import * as S from "./Slideshow.styles";
 
 const desktopImages = [
-  process.env.PUBLIC_URL + "/img/place/namsan2.jpg",
+  process.env.PUBLIC_URL + "/img/place/namsan2.png",
   process.env.PUBLIC_URL + "/img/place/hangang.png",
-  process.env.PUBLIC_URL + "/img/place/gyeongbokgung2.jpg",
+  process.env.PUBLIC_URL + "/img/place/gyeongbokgung2.png",
 ];
 
 const mobileImages = [
-  process.env.PUBLIC_URL + "/img/place/namsan1.jpg",
+  process.env.PUBLIC_URL + "/img/place/namsan1.png",
   process.env.PUBLIC_URL + "/img/place/hangang.png",
-  process.env.PUBLIC_URL + "/img/place/gyeongbokgung1.jpg",
+  process.env.PUBLIC_URL + "/img/place/gyeongbokgung1.png",
 ];
 
 function Slideshow() {
