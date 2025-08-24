@@ -47,7 +47,7 @@ const Contact = () => {
             </S.SectionText>
             <S.DonationInfo>
               <p>Bank: Rabbit Bank 🐇</p>
-              <p>Account Number: 1234-5678-91011 (Holder: Rabbit K)</p>
+              <p>Account Number: 1234-5678-91011 (Holder: Rabbit K     )</p>
             </S.DonationInfo>
             <S.SectionText small>
               * We sincerely thank everyone who supports us! You are amazing! 👍

@@ -1,7 +1,7 @@
 [
-  { "id": "namsan", "title": "Namsan Tower", "img": "/img/place/namsan1.png", "desc": "Enjoy the panoramic view of Seoul from the landmark Namsan Tower." },
-  { "id": "gyeongbok", "title": "Gyeongbokgung Palace", "img": "/img/place/gyeongbok.jpg", "desc": "Experience the history and tradition of Korea at Gyeongbokgung Palace." },
-  { "id": "hangang", "title": "Han River", "img": "/img/place/river.jpg", "desc": "Relax and enjoy the scenic Han River in Seoul." },
+  { "id": "namsan", "title": "Namsan Tower", "img": "/img/place/namsan1.jpg", "desc": "Enjoy the panoramic view of Seoul from the landmark Namsan Tower." },
+  { "id": "gyeongbokgung", "title": "Gyeongbokgung Palace", "img": "/img/place/gyeongbokgung1.jpg", "desc": "Experience the history and tradition of Korea at Gyeongbokgung Palace." },
+  { "id": "hangang", "title": "Han River", "img": "/img/place/hangang.png", "desc": "Relax and enjoy the scenic Han River in Seoul." },
   { "id": "itaewon", "title": "Itaewon", "img": "/img/place/itaewon.jpg", "desc": "Explore a multicultural street full of food and entertainment." },
   { "id": "hongdae", "title": "Hongdae", "img": "/img/place/hongdae.jpg", "desc": "A lively district known for youth culture and art." },
   { "id": "naksan", "title": "Naksan Park", "img": "/img/place/naksan.jpeg", "desc": "Enjoy views of Seoul and the city wall from Naksan Park." },

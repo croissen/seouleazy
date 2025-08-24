@@ -6,7 +6,7 @@ const HoneyTip = () => {
   const [honeyTips, setHoneyTips] = useState([]);
 
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/data/honeytip_en.json') // 영어 JSON 파일
+    fetch(process.env.PUBLIC_URL + '/data/honeytip.json') // 영어 JSON 파일
       .then(res => res.json())
       .then(data => setHoneyTips(data))
       .catch(err => console.error('Failed to load honey tips data:', err));
