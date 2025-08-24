@@ -1,21 +1,36 @@
 import React, { useState, useEffect } from "react";
 import * as S from "./Slideshow.styles";
 
-const images = [
+const desktopImages = [
   process.env.PUBLIC_URL + "/img/place/namsan2.jpg",
   process.env.PUBLIC_URL + "/img/place/hangang.png",
   process.env.PUBLIC_URL + "/img/place/gyeongbokgung2.jpg",
 ];
 
+const mobileImages = [
+  process.env.PUBLIC_URL + "/img/place/namsan1.jpg",
+  process.env.PUBLIC_URL + "/img/place/hangang.png",
+  process.env.PUBLIC_URL + "/img/place/gyeongbokgung1.jpg",
+];
+
 function Slideshow() {
   const [current, setCurrent] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  const images = isMobile ? mobileImages : desktopImages;
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const itv = setInterval(() => {
       setCurrent((p) => (p + 1) % images.length);
     }, 5000);
     return () => clearInterval(itv);
-  }, []);
+  }, [images]);
 
   return (
     <S.Section>
@@ -25,9 +40,8 @@ function Slideshow() {
         ))}
         <S.Overlay>
           <S.SlideTitle>Where else? SeoulEZ!!</S.SlideTitle>
-          <S.SlideSubtitle>서울을 쉽고 즐겁게 체험하세요</S.SlideSubtitle>
+          <S.SlideSubtitle>Discover Seoul the easy and fun way</S.SlideSubtitle>
         </S.Overlay>
-        {/* Overlay 밖으로 이동, 항상 화면 하단 기준 */}
         <S.ScrollDown>↓ scroll</S.ScrollDown>
       </S.SlideWrapper>
     </S.Section>

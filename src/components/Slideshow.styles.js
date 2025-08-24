@@ -29,23 +29,16 @@ export const Panorama = styled.img`
 `;
 
 export const SlideTitle = styled.h1`
-  font-size: 3rem;
-  font-weight: 800;
-  margin: 0;
-  text-shadow: 0 4px 20px rgba(0,0,0,0.7); // 그림자 강화
-  @media (max-width: 480px) {
-    font-size: 2.2rem; // 모바일 대응
-  }
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);  /* 글자 그림자 */
 `;
 
-export const SlideSubtitle = styled.h2`
-  font-size: 1.25rem;
-  margin-top: 12px;
-  opacity: 0.95; // 약간 더 선명하게
-  text-shadow: 0 2px 12px rgba(0,0,0,0.6); // 그림자 추가
-  @media (max-width: 480px) {
-    font-size: 1rem;
-  }
+export const SlideSubtitle = styled.p`
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);  /* 살짝 더 은은하게 */
 `;
 
 export const Overlay = styled.div`
