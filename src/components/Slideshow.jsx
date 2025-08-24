@@ -24,7 +24,7 @@ function Slideshow() {
           <S.Panorama key={src} src={src} isActive={idx === current} />
         ))}
         <S.Overlay>
-          <S.SlideTitle>어디긴? SeoulEZ!!</S.SlideTitle>
+          <S.SlideTitle>Where else? SeoulEZ!!</S.SlideTitle>
           <S.SlideSubtitle>서울을 쉽고 즐겁게 체험하세요</S.SlideSubtitle>
         </S.Overlay>
         {/* Overlay 밖으로 이동, 항상 화면 하단 기준 */}
