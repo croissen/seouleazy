@@ -56,6 +56,7 @@ export const NavItem = styled.a`
 export const Contact = styled.div`
   font-size: 16px;
   cursor: pointer;
+  color: white;
 
   &.desktop {
     @media (max-width: 768px) {

@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import TastyKorea from './pages/TastyKorea';
 import TastyKoreaDetail from './pages/TastyKoreaDetail';
 import TripCalc from './pages/TripCalc';
+import Contact from './pages/Contact';
+import HoneyTip from './pages/HoneyTip';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/tasty-korea" element={<TastyKorea />} />
         <Route path="/tasty-korea-detail/:id" element={<TastyKoreaDetail />} />
         <Route path="/trip-calc" element={<TripCalc />} />
+        <Route path="/honey-tip" element={<HoneyTip />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

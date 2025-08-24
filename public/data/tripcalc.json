@@ -14,21 +14,21 @@
   },
   "options": {
     "transportTypes": [
-      { "key": "taxi", "label": "택시" },
-      { "key": "public", "label": "대중교통" }
+      { "key": "taxi", "label": "Taxi" },
+      { "key": "public", "label": "Public Transport" }
     ],
     "mealTypes": [
-      { "key": "cheap", "label": "저렴한 식사" },
-      { "key": "normal", "label": "일반 식사" },
-      { "key": "luxury", "label": "호화 식사" }
+      { "key": "cheap", "label": "Cheap Meal" },
+      { "key": "normal", "label": "Standard Meal" },
+      { "key": "luxury", "label": "Luxury Meal" }
     ],
     "accommodationTypes": [
-      { "key": "guesthouse", "label": "게스트하우스" },
-      { "key": "hotel", "label": "호텔" }
+      { "key": "guesthouse", "label": "Guesthouse" },
+      { "key": "hotel", "label": "Hotel" }
     ],
     "extraTypes": [
-      { "key": "activityShopping", "label": "액티비티 앤 쇼핑" },
-      { "key": "emergency", "label": "비상금" }
+      { "key": "activityShopping", "label": "Activities & Shopping" },
+      { "key": "emergency", "label": "Emergency Fund" }
     ]
   }
 }

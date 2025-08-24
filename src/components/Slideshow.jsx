@@ -4,7 +4,7 @@ import * as S from "./Slideshow.styles";
 const images = [
   process.env.PUBLIC_URL + "/img/place/namsan1.png",
   process.env.PUBLIC_URL + "/img/place/river.jpg",
-  process.env.PUBLIC_URL + "/img/place/kbg1.png",
+  process.env.PUBLIC_URL + "/img/place/gyeongbok.jpg",
 ];
 
 function Slideshow() {

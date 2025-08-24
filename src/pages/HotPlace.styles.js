@@ -8,7 +8,7 @@ export const Section = styled.section`
   justify-content: center;
 
   @media (max-width: 768px) {
-    padding: 15% 4%;
+    padding: 20% 4%;
   }
 `;
 
