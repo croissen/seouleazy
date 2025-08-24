@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "icon": "💳",
+    "title": "T-Money Card",
+    "content": "Essential for using public transportation like subways and buses! You can easily buy and recharge it at convenience stores. Save on transport costs and travel conveniently."
+  },
+  {
+    "id": 2,
+    "icon": "🗺️",
+    "title": "Naver Map & Kakao Map",
+    "content": "Naver Map and Kakao Map are more accurate than Google Maps in Korea. Useful for real-time public transport info, restaurants, and directions, so install them beforehand!"
+  },
+  {
+    "id": 3,
+    "icon": "💲",
+    "title": "No Tipping Culture",
+    "content": "In Korea, there is no need to tip at restaurants, cafes, or taxis. Service charges are already included in the price, so you can relax without worrying about tipping."
+  },
+  {
+    "id": 4,
+    "icon": "📶",
+    "title": "Public Wi-Fi",
+    "content": "Free Wi-Fi is widely available in subways, trains, cafes, and public places. You can use the internet easily without renting a Wi-Fi device or roaming."
+  },
+  {
+    "id": 5,
+    "icon": "👟",
+    "title": "Remove Shoes Indoors",
+    "content": "It's customary to remove your shoes when entering restaurants, accommodations, or private homes. Simply take off your shoes at the entrance."
+  },
+  {
+    "id": 6,
+    "icon": "🗣️",
+    "title": "Papago Translator",
+    "content": "If communicating in Korean is difficult, use the Naver Papago app. It provides accurate translations, including image and voice translation features."
+  },
+  {
+    "id": 7,
+    "icon": "🛒",
+    "title": "Tax Refund",
+    "content": "Foreign tourists can get a tax refund when purchasing above a certain amount. Receive benefits at airports or designated city refund points."
+  },
+  {
+    "id": 8,
+    "icon": "📞",
+    "title": "Emergency Numbers",
+    "content": "In an emergency, call 🚨112 (police) or 🚨119 (fire/ambulance). Emergency requests are handled quickly in Korea."
+  }
+]
