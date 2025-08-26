@@ -1,22 +1,162 @@
 [
-  { "id": "bibimbap", "name": "Bibimbap", "price": "₩10,000", "img": "/img/food/bibimbap.jpg", "desc": "A bowl of rice mixed with vegetables, meat, egg, and chili paste.", "content": "A healthy and delicious representative Korean dish, mixing various vegetables, meat, egg, and chili paste." },
-  { "id": "bulgogi", "name": "Bulgogi", "price": "₩15,000", "img": "/img/food/bulgogi.jpg", "desc": "Marinated beef grilled to perfection.", "content": "Sweet and savory marinated beef grilled and enjoyed with rice, a classic Korean meat dish." },
-  { "id": "kimchi", "name": "Kimchi", "price": "₩4,000", "img": "/img/food/kimchi.jpg", "desc": "Fermented vegetables, mainly cabbage and radish.", "content": "A Korean staple fermented food with a spicy and crispy flavor, fundamental as a side dish." },
-  { "id": "samgyeopsal", "name": "Samgyeopsal", "price": "₩13,000", "img": "/img/food/samgyeopsal.jpg", "desc": "Grilled pork belly eaten with vegetables and dipping sauce.", "content": "Grilled on a pan and enjoyed with lettuce and dipping sauce, Korea’s famous barbecue." },
-  { "id": "galbi", "name": "Galbi", "price": "₩18,000", "img": "/img/food/galbi.png", "desc": "Marinated beef or pork ribs, grilled over charcoal.", "content": "Korean traditional meat dish, grilled marinated ribs with a rich sweet flavor." },
-  { "id": "japchae", "name": "Japchae", "price": "₩11,000", "img": "/img/food/japchae.jpg", "desc": "Stir-fried glass noodles with vegetables and meat.", "content": "Chewy glass noodles mixed with meat and vegetables, a harmonious Korean stir-fry." },
-  { "id": "tteokbokki", "name": "Tteokbokki", "price": "₩5,000", "img": "/img/food/tteokbokki.png", "desc": "Spicy rice cakes with fish cake and chili sauce.", "content": "Chewy rice cakes with sweet and spicy sauce, a representative Korean street food." },
-  { "id": "sundae", "name": "Sundae", "price": "₩6,000", "img": "/img/food/sundae.jpg", "desc": "Korean blood sausage made with noodles and vegetables.", "content": "A traditional Korean snack with chewy texture and savory taste." },
-  { "id": "gimbap", "name": "Gimbap", "price": "₩4,000", "img": "/img/food/gimbap.jpg", "desc": "Rice and various ingredients rolled in seaweed.", "content": "Popular Korean food with rice and various ingredients rolled in seaweed, easy to enjoy." },
-  { "id": "ramyeon", "name": "Ramyeon", "price": "₩3,500", "img": "/img/food/ramyeon.jpg", "desc": "Instant or soup noodles.", "content": "Convenient and spicy soup noodles loved worldwide." },
-  { "id": "kalguksu", "name": "Kalguksu", "price": "₩8,000", "img": "/img/food/kalguksu.jpg", "desc": "Knife-cut noodles in warm broth.", "content": "Soft noodles in warm soup, a classic Korean noodle dish." },
-  { "id": "naengmyeon", "name": "Naengmyeon", "price": "₩9,000", "img": "/img/food/naengmyeon.jpg", "desc": "Cold buckwheat noodles.", "content": "Refreshing broth with chewy noodles, a representative summer delicacy." },
-  { "id": "samgyetang", "name": "Samgyetang", "price": "₩15,000", "img": "/img/food/samgyetang.jpeg", "desc": "Ginseng chicken soup with rice.", "content": "A nutritious health food, helps recover from summer fatigue, traditional Korean dish." },
-  { "id": "haemulpajeon", "name": "Haemul Pajeon", "price": "₩12,000", "img": "/img/food/haemulpajeon.jpg", "desc": "Savory pancake with green onions and seafood.", "content": "Crispy outside, moist inside, pairs perfectly with Korean rice wine (makgeolli)." },
-  { "id": "kimchijjige", "name": "Kimchi Jjigae", "price": "₩8,000", "img": "/img/food/kimchijjige.jpg", "desc": "Spicy kimchi stew with pork.", "content": "Korean home-style stew with deep, spicy flavor." },
-  { "id": "doenjangjjige", "name": "Doenjang Jjigae", "price": "₩8,000", "img": "/img/food/doenjangjjige.jpg", "desc": "Soybean paste stew with tofu and vegetables.", "content": "A warm traditional stew with savory soybean paste and vegetables." },
-  { "id": "budaejjige", "name": "Budae Jjigae", "price": "₩10,000", "img": "/img/food/budaejjige.jpg", "desc": "Stew with ham, sausages, noodles, and vegetables.", "content": "A hearty and spicy fusion stew with various ingredients." },
-  { "id": "seolleongtang", "name": "Seolleongtang", "price": "₩10,000", "img": "/img/food/seolleongtang.jpeg", "desc": "Beef bone soup with tender meat.", "content": "A traditional Korean health food with milky bone broth and meat." },
-  { "id": "gamjatang", "name": "Gamjatang", "price": "₩11,000", "img": "/img/food/gamjatang.jpg", "desc": "Spicy pork bone stew with potatoes.", "content": "A spicy and refreshing Korean hangover soup." },
-  { "id": "hotteok", "name": "Hotteok", "price": "₩3,000", "img": "/img/food/hotteok.jpg", "desc": "Sweet Korean pancake filled with syrup.", "content": "Chewy dough filled with sweet syrup, popular winter snack." }
+  {
+    "id": "bibimbap",
+    "name": "Bibimbap",
+    "price": "₩10,000",
+    "img": "/img/food/bibimbap.jpg",
+    "desc": "A vibrant and fresh Korean healthy dish! A bowl of rice topped with colorful fresh vegetables, meat, egg, and spicy-sweet Gochujang (chili paste), mixed well before eating. 🎨",
+    "content": "Bibimbap, a dish that captures the colorful taste and nutrition of Korea in one bowl, is a feast for both the eyes and the palate! The fresh flavors of each ingredient blend perfectly with the deep richness of Gochujang. It's a must-try menu enjoyed by all ages! 🍚✨"
+  },
+  {
+    "id": "bulgogi",
+    "name": "Bulgogi",
+    "price": "₩15,000",
+    "img": "/img/food/bulgogi.jpg",
+    "desc": "Korean-style barbecue featuring tender beef or pork marinated in a sweet and savory soy sauce, grilled to perfection! 🥩 Full of smoky aroma. 🔥",
+    "content": "Bulgogi, one of the most beloved Korean dishes by foreigners, delivers pure happiness with every bite as the sweet marinade seeps into the meat. Its flavor is doubled when eaten wrapped in fresh leafy greens. It’s the perfect hearty and delicious meal! 🌿😋"
+  },
+  {
+    "id": "kimchi",
+    "name": "Kimchi",
+    "price": "₩4,000",
+    "img": "/img/food/kimchi.jpg",
+    "desc": "A staple on Korean dining tables, this spicy and refreshing fermented cabbage or radish dish. 🌶️ It's also known as a superfood, a healthy side dish!",
+    "content": "Kimchi, the soul food of Koreans and recognized worldwide, is more than just a side dish; it's the essence of Korean culinary culture. Its crunchy texture and spicy-sour taste pair well with any food, and it’s rich in probiotics, making it great for health. 💖"
+  },
+  {
+    "id": "samgyeopsal",
+    "name": "Samgyeopsal",
+    "price": "₩13,000",
+    "img": "/img/food/samgyeopsal.jpg",
+    "desc": "A representative Korean dining-out menu: thick pork belly sizzling on a grill, then wrapped in vegetables with Ssamjang (dipping sauce). 🥓 Even the sound is delicious!",
+    "content": "Samgyeopsal, the most beloved dish by Koreans! When you wrap crispy, savory grilled pork belly in lettuce or perilla leaves with garlic, kimchi, and Ssamjang, it's a taste that washes away all stress. Perfect for enjoying with friends! 👯‍♀️🥂"
+  },
+  {
+    "id": "galbi",
+    "name": "Galbi",
+    "price": "₩18,000",
+    "img": "/img/food/galbi.png",
+    "desc": "Traditional Korean barbecue with marinated beef or pork ribs, grilled over charcoal! It's fun to chew every last bit off the bone. 🍖",
+    "content": "Galbi has long been a special dish enjoyed at feasts or on special occasions. Grilled over charcoal for a subtle smoky flavor, it features tender meat and a perfect harmony of sweet and savory marinade. It's a representative menu that allows you to feel the warmth of Korean hospitality. 🎉"
+  },
+  {
+    "id": "japchae",
+    "name": "Japchae",
+    "price": "₩11,000",
+    "img": "/img/food/japchae.jpg",
+    "desc": "A celebratory dish made with various colorful vegetables, meat, and bouncy glass noodles stir-fried in a soy sauce seasoning. 🥳",
+    "content": "Japchae, an essential dish for any feast, looks beautiful with its vibrant colors and offers a fantastic combination of sweet and savory flavors with chewy glass noodles. It tastes even better when eaten together with family. A dish that combines both health and taste! 🥢"
+  },
+  {
+    "id": "tteokbokki",
+    "name": "Tteokbokki",
+    "price": "₩5,000",
+    "img": "/img/food/tteokbokki.png",
+    "desc": "Spicy-sweet rice cakes and fish cakes simmered in Gochujang sauce. A representative Korean street food. 😋",
+    "content": "Tteokbokki, loved by all Koreans for its appealing red visual and addictive taste that you can't stop eating once you start! You can enjoy it in various forms, from street food stalls in front of schools to upscale restaurants. Perfect for relieving stress while slurping it up with friends! 👯‍♀️🌶️"
+  },
+  {
+    "id": "sundae",
+    "name": "Sundae",
+    "price": "₩6,000",
+    "img": "/img/food/sundae.jpg",
+    "desc": "Korean blood sausage made by stuffing pork intestines with glass noodles, vegetables, and pig's blood. 🖤 It has a unique chewy texture.",
+    "content": "Sundae is the essence of Korean street food, forming a fantastic combination often enjoyed with Tteokbokki. It’s interesting to discover the different types of Sundae and dipping sauces across regions. It boasts an excellent clean and savory taste! 🍽️"
+  },
+  {
+    "id": "gimbap",
+    "name": "Gimbap",
+    "price": "₩4,000",
+    "img": "/img/food/gimbap.jpg",
+    "desc": "A Korean-style roll made by wrapping rice and various ingredients in seaweed. 🍙 A nutritious and easy-to-enjoy meal!",
+    "content": "Gimbap, always accompanying picnics and sports days! The nutty sesame oil-flavored rice and diverse fillings like ham, egg, spinach, and pickled radish are harmoniously blended, making it easy to pop into your mouth. It's also convenient to carry, making it perfect for outings. 🧺"
+  },
+  {
+    "id": "ramyeon",
+    "name": "Ramyeon",
+    "price": "₩3,500",
+    "img": "/img/food/ramyeon.jpg",
+    "desc": "A spicy and refreshing instant noodle dish with bouncy noodles, a Korean comfort food. 🍜",
+    "content": "A bowl of Ramyeon that suddenly comes to mind late at night! It has captured the taste buds of people worldwide with its convenience (just add hot water) and spicy flavor that makes you sweat. You can add green onions, eggs, bean sprouts, and more to your liking for a richer experience. 😋"
+  },
+  {
+    "id": "kalguksu",
+    "name": "Kalguksu",
+    "price": "₩8,000",
+    "img": "/img/food/kalguksu.jpg",
+    "desc": "A traditional Korean noodle dish with chewy, hand-cut noodles served in a warm, rich broth. 🥣",
+    "content": "Kalguksu, especially craved on rainy or cold days! It boasts an excellent cool and clean taste, simmered in various broths like chicken, clam, or anchovy. Enjoying the chewy noodles and generous toppings together will warm you up inside. ❤️‍🔥"
+  },
+  {
+    "id": "naengmyeon",
+    "name": "Naengmyeon",
+    "price": "₩9,000",
+    "img": "/img/food/naengmyeon.jpg",
+    "desc": "A representative Korean summer delicacy with refreshing, icy broth and chewy buckwheat noodles. ❄️",
+    "content": "Naengmyeon, to cool off on hot summer days! It's topped with thinly sliced cucumber, radish, and meat in a sweet and sour broth. Choose between spicy Bibim Naengmyeon (mixed with sauce) or refreshing Mul Naengmyeon (in cold broth) to suit your preference! 🧊"
+  },
+  {
+    "id": "samgyetang",
+    "name": "Samgyetang",
+    "price": "₩15,000",
+    "img": "/img/food/samgyetang.jpeg",
+    "desc": "A nourishing soup made by simmering a young chicken stuffed with glutinous rice, ginseng, and jujubes. 💪 It makes you feel strong!",
+    "content": "Samgyetang, a representative Korean health food, is often enjoyed when feeling run down or on hot summer 'Boknal' (dog days). The tender chicken meat and rich broth, simmered for a long time, help restore your energy. A must-try if you're thinking of your health! 🌿🍗"
+  },
+  {
+    "id": "haemulpajeon",
+    "name": "Haemul Pajeon",
+    "price": "₩12,000",
+    "img": "/img/food/haemulpajeon.jpg",
+    "desc": "A Korean savory pancake generously loaded with fresh seafood and green onions, pan-fried until crispy. 🍤 Perfect with Makgeolli!",
+    "content": "Haemul Pajeon tastes even better when sizzled on a rainy day! Various seafood like squid and shrimp add a delightful chewiness, and the crispy yet moist texture is superb. With a refreshing glass of Makgeolli (rice wine), it's a perfect combination! 🥂😋"
+  },
+  {
+    "id": "kimchijjigae",
+    "name": "Kimchi Jjigae",
+    "price": "₩8,000",
+    "img": "/img/food/kimchijjigae.jpg",
+    "desc": "A representative Korean stew, made by simmering well-fermented kimchi with pork and tofu until spicy and hearty. 🍲 A 'rice thief'!",
+    "content": "Kimchi Jjigae, a Korean soul stew that you can eat every day without getting tired of it! The sourness of aged kimchi combined with the savoriness of pork creates a deep and spicy flavor. It’s a truly satisfying and filling meal when eaten with warm rice. 👍"
+  },
+  {
+    "id": "doenjangjjigae",
+    "name": "Doenjang Jjigae",
+    "price": "₩8,000",
+    "img": "/img/food/doenjangjjigae.jpg",
+    "desc": "A traditional Korean stew simmering savory soybean paste with tofu, vegetables, and seafood. 🥢",
+    "content": "Doenjang Jjigae, standing shoulder to shoulder with Kimchi Jjigae on the Korean dining table! The deep flavor of homemade soybean paste and various ingredients come together, making you instinctively sigh 'Ah~' with just one spoonful. Experience the warmth of Korea with its comforting and savory taste. 🥰"
+  },
+  {
+    "id": "budaejjigae",
+    "name": "Budae Jjigae",
+    "price": "₩10,000",
+    "img": "/img/food/budaejjigae.jpg",
+    "desc": "A hearty and spicy fusion stew with ham, sausages, ramen noodles, and kimchi. 🌶️",
+    "content": "Budae Jjigae, loved by all ages for its generous portion and spicy flavor! With various ingredients like ham, sausages, cheese, and ramen, it's fun to pick out different bits. It’s perfect for friends to gather around and enjoy a warm, bubbling pot. 🍜🥓"
+  },
+  {
+    "id": "seolleongtang",
+    "name": "Seolleongtang",
+    "price": "₩10,000",
+    "img": "/img/food/seolleongtang.jpeg",
+    "desc": "A clean and savory beef bone broth dish, made by simmering ox bones until milky white, often eaten with rice. 🐄",
+    "content": "Seolleongtang, a representative Korean health food, is known for its excellent rich broth made from ox bones simmered for a long time. When you mix rice and thin noodles into the milky broth and eat it with Kkakdugi (diced radish kimchi), it feels incredibly satisfying and comforting. 👍"
+  },
+  {
+    "id": "gamjatang",
+    "name": "Gamjatang",
+    "price": "₩11,000",
+    "img": "/img/food/gamjatang.jpg",
+    "desc": "A spicy stew with pork backbone, potatoes, and napa cabbage. 🥔 Great for hangovers too!",
+    "content": "Gamjatang, with its spicy yet deep flavor, is perfect as a drinking snack or a hearty meal. The joy of stripping tender meat from the backbone, combined with fluffy potatoes and the spicy broth, is superb. Highly recommended as a hangover soup! 🍖🌶️"
+  },
+  {
+    "id": "hotteok",
+    "name": "Hotteok",
+    "price": "₩3,000",
+    "img": "/img/food/hotteok.jpg",
+    "desc": "A Korean pancake with chewy dough filled with sweet honey and nutty syrup. 🍯 Happiness in every bite when eaten warm!",
+    "content": "Hotteok, found on the streets on chilly days, is the very essence of winter romance. The crispy exterior and the sweet, flowing syrup inside create a fantastic harmony. Taking a bite of this magical snack melts away both the cold and any worries. 🧚‍♀️"
+  }
 ]
