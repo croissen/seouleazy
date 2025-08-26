@@ -1,17 +1,171 @@
 [
-  { "id": "namsan", "title": "Namsan Tower", "img": "/img/place/namsan1.png", "desc": "Enjoy the panoramic view of Seoul from the landmark Namsan Tower." },
-  { "id": "gyeongbokgung", "title": "Gyeongbokgung Palace", "img": "/img/place/gyeongbokgung1.png", "desc": "Experience the history and tradition of Korea at Gyeongbokgung Palace." },
-  { "id": "hangang", "title": "Han River", "img": "/img/place/hangang.png", "desc": "Relax and enjoy the scenic Han River in Seoul." },
-  { "id": "itaewon", "title": "Itaewon", "img": "/img/place/itaewon.jpg", "desc": "Explore a multicultural street full of food and entertainment." },
-  { "id": "hongdae", "title": "Hongdae", "img": "/img/place/hongdae.jpg", "desc": "A lively district known for youth culture and art." },
-  { "id": "naksan", "title": "Naksan Park", "img": "/img/place/naksan.jpeg", "desc": "Enjoy views of Seoul and the city wall from Naksan Park." },
-  { "id": "lotteworld", "title": "Lotte World", "img": "/img/place/lotteworld.jpg", "desc": "Experience amusement park fun and shopping all in one place." },
-  { "id": "gwangjang", "title": "Gwangjang Market", "img": "/img/place/gwangjang.jpg", "desc": "Enjoy traditional market vibes and street food." },
-  { "id": "insadong", "title": "Insadong", "img": "/img/place/insadong.jpg", "desc": "A street full of traditional crafts, galleries, and tea houses." },
-  { "id": "namdaemun", "title": "Namdaemun Market", "img": "/img/place/namdaemun.jpg", "desc": "Seoul's largest traditional market, full of shopping and food." },
-  { "id": "aquarium", "title": "Aquarium", "img": "/img/place/aquarium.jpg", "desc": "Experience shopping, exhibitions, and aquatic life in one place." },
-  { "id": "bukchon", "title": "Bukchon Hanok Village", "img": "/img/place/bukchon.jpg", "desc": "Explore traditional Korean houses and charming alleys." },
-  { "id": "gangnam", "title": "Gangnam", "img": "/img/place/gangnam.jpg", "desc": "The iconic district of Seoul, representing the city’s modern lifestyle." },
-  { "id": "seoulsky", "title": "Seoul Sky", "img": "/img/place/seoulsky.jpg", "desc": "See the entire Seoul skyline from Korea's tallest building, 127 floors high." },
-  { "id": "seoulforest", "title": "Seoul Forest", "img": "/img/place/seoulforest.jpg", "desc": "A green oasis in the city, perfect for walks and animal encounters." }
+  {
+    "id": "namsan",
+    "title": "Namsan Tower",
+    "img": "/img/place/namsan1.png",
+    "desc": "Enjoy panoramic views of Seoul and a romantic atmosphere from the iconic Namsan Tower.",
+    "tips": "Visit at sunset to capture both daytime cityscapes and dazzling night views. Consider taking the cable car for an enhanced experience.",
+    "highlights": "360-degree observation deck, Love Locks, Namsan Park, N Seoul Tower Media Art",
+    "latitude": 37.5512,  
+    "longitude": 126.9880,
+    "nearestStationInfo": "Line 4 Myeong-dong Station"
+  },
+  {
+    "id": "gyeongbokgung",
+    "title": "Gyeongbokgung Palace",
+    "img": "/img/place/gyeongbokgung1.png",
+    "desc": "Immerse yourself in Korea's majestic history and traditional architecture at Gyeongbokgung Palace.",
+    "tips": "Plan your visit to witness the impressive Royal Guard Changing Ceremony at Gwanghwamun Gate.",
+    "highlights": "Grand traditional architecture, Royal Guard Changing Ceremony, National Folk Museum, Beautiful palace gardens",
+    "latitude": 37.5796,  
+    "longitude": 126.9770,
+    "nearestStationInfo": "Line 3 Gyeongbokgung Station",
+    "galleryImages": [
+      "/img/place/gyeongbokgung1.png",
+      "/img/place/gyeongbokgung2.png"
+    ] 
+  },
+  {
+    "id": "hangang",
+    "title": "Han River",
+    "img": "/img/place/hangang.png",
+    "desc": "Find relaxation and scenic beauty along the Han River, perfect for various outdoor activities.",
+    "tips": "Enjoy a leisurely picnic, rent a bicycle, or experience a scenic river cruise, especially during sunset.",
+    "highlights": "Yeouido Hangang park, Cycling paths, Han River cruises",
+    "latitude": 37.5283,  
+    "longitude": 126.9333,
+    "nearestStationInfo": "Line 5 Yeouinaru Station" 
+  },
+  {
+    "id": "itaewon",
+    "title": "Itaewon",
+    "img": "/img/place/itaewon.jpg",
+    "desc": "Discover a vibrant multicultural district known for its diverse international cuisine, trendy shops, and dynamic nightlife.",
+    "tips": "Explore hidden alleys for unique cafes and boutiques. Best enjoyed in the evening for its bustling atmosphere.",
+    "highlights": "Global restaurants and bars, Unique fashion, Lively nightlife, Diverse cultural experiences",
+    "latitude": 37.5345,  
+    "longitude": 126.9945,
+    "nearestStationInfo": "Line 6 Itaewon Station" 
+  },
+  {
+    "id": "hongdae",
+    "title": "Hongdae",
+    "img": "/img/place/hongdae.jpg",
+    "desc": "Dive into Seoul's youthful energy and artistic spirit in Hongdae, famous for its street performances and indie art scene.",
+    "tips": "Weekends are buzzing with live music, street dances, and creative markets. Explore quirky shops and art galleries.",
+    "highlights": "Street performances, Indie music venues, Artistic cafes, Trendy fashion boutiques, Mural Street",
+    "latitude": 37.5577,  
+    "longitude": 126.9248,
+    "nearestStationInfo": "Line 2 Hongik Univ. Station" 
+  },
+  {
+    "id": "naksan",
+    "title": "Naksan Park",
+    "img": "/img/place/naksan.jpeg",
+    "desc": "Enjoy magnificent views of Seoul and stroll along the historic Seoul City Wall at Naksan Park.",
+    "tips": "An ideal spot for a leisurely walk, offering stunning city views, especially at night. Don't miss the charming Ihwa Mural Village nearby.",
+    "highlights": "Seoul City Wall trail, Panoramic city views, Ihwa Mural Village, Artistic installations",
+    "latitude": 37.5804,  
+    "longitude": 127.0090,
+    "nearestStationInfo": "Line 4 Hyehwa Station" 
+  },
+  {
+    "id": "lotteworld",
+    "title": "Lotte World",
+    "img": "/img/place/lotteworld.jpg",
+    "desc": "Experience a world of adventure and entertainment at Lotte World, featuring both indoor and outdoor attractions.",
+    "tips": "Perfect for families with children, offering thrilling rides, parades, and a unique Magic Island concept.",
+    "highlights": "Indoor and outdoor theme parks (Lotte World Adventure & Magic Island), Lotte World Aquarium, Ice Rink, Shopping mall",
+    "latitude": 37.5111,  
+    "longitude": 127.0982,
+    "nearestStationInfo": "Line 2 Jamsil Station" 
+  },
+  {
+    "id": "gwangjang",
+    "title": "Gwangjang Market",
+    "img": "/img/place/gwangjang.jpg",
+    "desc": "Savor authentic Korean street food and soak in the lively atmosphere of one of Korea's oldest traditional markets.",
+    "tips": "You must try the famous Bindaetteok (mung bean pancake) and Mayak Gimbap (mini rice rolls) for a true taste of Seoul.",
+    "highlights": "Delicious street food, Traditional textiles and crafts, Authentic market experience, Lively local vibe",
+    "latitude": 37.5668,  
+    "longitude": 126.9996,
+    "nearestStationInfo": "Line 1 Jongno 5-ga Station" 
+  },
+  {
+    "id": "insadong",
+    "title": "Insadong",
+    "img": "/img/place/insadong.jpg",
+    "desc": "Explore Insadong, a cultural street preserving traditional Korean charm with its antique shops, art galleries, and quaint tea houses.",
+    "tips": "A great place to find unique Korean souvenirs and experience a traditional tea ceremony. Look out for the Ssamziegil complex.",
+    "highlights": "Traditional crafts and art, Antique shops, Art galleries, Traditional teahouses, Ssamziegil shopping complex",
+    "latitude": 37.5746,  
+    "longitude": 126.9859,
+    "nearestStationInfo": "Line 3 Anguk Station" 
+  },
+  {
+    "id": "namdaemun",
+    "title": "Namdaemun Market",
+    "img": "/img/place/namdaemun.jpg",
+    "desc": "Discover Seoul's largest traditional market, a bustling hub offering an immense variety of goods and local street food.",
+    "tips": "Embrace the opportunity to bargain for prices. Don't forget to sample street snacks from the vendors.",
+    "highlights": "Wide array of goods (clothing, household items, souvenirs), Authentic Korean street food, Vibrant local atmosphere, Traditional gate (Sungnyemun)",
+    "latitude": 37.5599,  
+    "longitude": 126.9765,
+    "nearestStationInfo": "Line 4 Hoehyeon Station" 
+  },
+  {
+    "id": "aquarium",
+    "title": "COEX Aquarium",
+    "img": "/img/place/aquarium.jpg",
+    "desc": "Dive into the fascinating underwater world at COEX Aquarium, a major attraction within the COEX complex.",
+    "tips": "Located inside COEX Mall, making it easy to combine with shopping and dining. Great for educational and family fun.",
+    "highlights": "Diverse marine life exhibits, Interactive displays, Thematic zones (e.g., Deep Blue Sea, Ocean Kingdom), Located within COEX Mall",
+    "latitude": 37.5134,  
+    "longitude": 127.0583,
+    "nearestStationInfo": "Line 2 Samseong Station" 
+  },
+  {
+    "id": "bukchon",
+    "title": "Bukchon Hanok Village",
+    "img": "/img/place/bukchon.jpg",
+    "desc": "Wander through the beautifully preserved traditional Korean houses and charming alleys of Bukchon Hanok Village.",
+    "tips": "Respect the residents' privacy as you explore this living village. Wear comfortable shoes for walking up hilly streets.",
+    "highlights": "Traditional Hanok architecture, Picturesque alleyways, Cultural experience centers, Panoramic views of Seoul's skyline",
+    "latitude": 37.5829,  
+    "longitude": 126.9832,
+    "nearestStationInfo": "Line 3 Anguk Station" 
+  },
+  {
+    "id": "gangnam",
+    "title": "Gangnam",
+    "img": "/img/place/gangnam.jpg",
+    "desc": "Experience Seoul's modern pulse in Gangnam, a district synonymous with luxury, high-end shopping, and K-Pop culture.",
+    "tips": "Explore the upscale Apgujeong and Cheongdam-dong areas for luxury shopping. Visit Sinsa-dong Garosu-gil for trendy cafes and boutiques.",
+    "highlights": "Luxury shopping (Cheongdam-dong), K-Star Road, Trendy cafes and boutiques (Garosu-gil), COEX Mall, Modern architecture",
+    "latitude": 37.5172,  
+    "longitude": 127.0474,
+    "nearestStationInfo": "Line 2 Gangnam Station" 
+  },
+  {
+    "id": "seoulsky",
+    "title": "Seoul Sky",
+    "img": "/img/place/seoulsky.jpg",
+    "desc": "Ascend to the top of Lotte World Tower and witness breathtaking 360-degree views of Seoul from Korea's highest observation deck.",
+    "tips": "Visit on a clear day for the best visibility. Purchase tickets in advance to save time and ensure entry.",
+    "highlights": "Korea's highest observation deck (123F), Glass-floored 'Sky Deck', Immersive media displays, Panoramic city views",
+    "latitude": 37.5126,  
+    "longitude": 127.1026,
+    "nearestStationInfo": "Line 2 Jamsil Station" 
+  },
+  {
+    "id": "seoulforest",
+    "title": "Seoul Forest",
+    "img": "/img/place/seoulforest.jpg",
+    "desc": "Enjoy a tranquil green oasis in the heart of Seoul, perfect for leisurely walks and nature encounters.",
+    "tips": "Explore its various themed gardens, including the Deer Park and Insect Garden. Great for picnics and cycling.",
+    "highlights": "Vast green spaces, Deer Park, Mirror Pond, Cultural Art Park, Ecological Forest, Walking and cycling paths",
+    "latitude": 37.5445,  
+    "longitude": 127.0427,
+    "nearestStationInfo": "Suin-Bundang Line Seoul Forest Station" 
+  }
 ]
