@@ -3,48 +3,48 @@
     "id": 1,
     "icon": "💳",
     "title": "T-Money Card",
-    "content": "Essential for using public transportation like subways and buses! You can easily buy and recharge it at convenience stores. Save on transport costs and travel conveniently."
+    "content": "Essential for using public transport (subways, buses). You can buy and top up T-Money at convenience stores (GS25, CU, 7-Eleven) and at subway stations."
   },
   {
     "id": 2,
     "icon": "🗺️",
     "title": "Naver Map & Kakao Map",
-    "content": "Naver Map and Kakao Map are more accurate than Google Maps in Korea. Useful for real-time public transport info, restaurants, and directions, so install them beforehand!"
+    "content": "Naver Map and Kakao Map are widely used in Korea and often provide more accurate local and public-transport info than Google Maps—install one or both before your trip."
   },
   {
     "id": 3,
     "icon": "💲",
-    "title": "No Tipping Culture",
-    "content": "In Korea, there is no need to tip at restaurants, cafes, or taxis. Service charges are already included in the price, so you can relax without worrying about tipping."
+    "title": "Tipping is not required",
+    "content": "In Korea, tipping is not a common practice. Restaurants, cafes, and taxis do not expect tips since service charges are included in prices. You can simply pay the bill without adding extra."
   },
   {
     "id": 4,
     "icon": "📶",
     "title": "Public Wi-Fi",
-    "content": "Free Wi-Fi is widely available in subways, trains, cafes, and public places. You can use the internet easily without renting a Wi-Fi device or roaming."
+    "content": "Free Wi-Fi is commonly available in subways, buses, major tourist areas, and many cafes. Security varies, so avoid sensitive payments on public networks."
   },
   {
     "id": 5,
     "icon": "👟",
-    "title": "Remove Shoes Indoors",
-    "content": "It's customary to remove your shoes when entering restaurants, accommodations, or private homes. Simply take off your shoes at the entrance."
+    "title": "Removing Shoes Indoors",
+    "content": "In Korea, shoes are removed in certain indoor places such as private homes, some traditional restaurants with floor seating, guesthouses, and jjimjilbang (Korean spas). However, in most modern restaurants, cafes, hotels, and shops, you keep your shoes on."
   },
   {
     "id": 6,
     "icon": "🗣️",
     "title": "Papago Translator",
-    "content": "If communicating in Korean is difficult, use the Naver Papago app. It provides accurate translations, including image and voice translation features."
+    "content": "Naver Papago offers text, image, and voice translation (and offline functionality). It's very useful when you need quick Korean↔English help."
   },
   {
     "id": 7,
     "icon": "🛒",
     "title": "Tax Refund",
-    "content": "Foreign tourists can get a tax refund when purchasing above a certain amount. Receive benefits at airports or designated city refund points."
+    "content": "Foreign visitors can get VAT refunds for qualifying purchases. Minimum amounts and procedures vary—look for 'tax-free' signs, keep receipts, and claim refunds at stores, downtown refund booths, or airports."
   },
   {
     "id": 8,
     "icon": "📞",
     "title": "Emergency Numbers",
-    "content": "In an emergency, call 🚨112 (police) or 🚨119 (fire/ambulance). Emergency requests are handled quickly in Korea."
+    "content": "For emergencies call 112 (police) or 119 (fire/ambulance). For traveler assistance, call 1330."
   }
 ]
