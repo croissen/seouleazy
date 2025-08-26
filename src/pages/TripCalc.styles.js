@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   max-width: 860px;
   margin: 0 auto;
-  padding: 9%;
+  padding: 5%;
   color: #0f172a;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji",

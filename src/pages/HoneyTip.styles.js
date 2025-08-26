@@ -8,7 +8,7 @@ export const Container = styled.div`
   max-width: 1200px; // PC에서도 충분히 넓게
   min-height: 100vh;
   margin: 0 auto;
-  padding: 9% 2%; // 양쪽 여백만
+  padding: 5% 2%; // 양쪽 여백만
   display: flex;
   flex-direction: column;
   justify-content: center;

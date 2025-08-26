@@ -78,14 +78,14 @@ export const MobileMenuButton = styled.div`
 export const MobileDropdown = styled.div`
   position: absolute;
   top: 60px;
-  right: 20px;
-  background-color: rgba(34, 34, 34, 0.95);
-  padding: 10px 20px;
+  right: 0%;
+  background-color: rgba(34, 34, 34, 0.9);
+  padding: 20px 40px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  border-radius: 5px;
+  gap: 30px;
   z-index: 1001;
+  align-items: center;
 
   max-height: ${({ isOpen }) => (isOpen ? "500px" : "0")};
   opacity: ${({ isOpen }) => (isOpen ? 1 : 0)};

@@ -29,7 +29,7 @@ function HP() {
           Read More →
         </S.ReadMore>
       </S.TitleWrapper>
-      <S.SubTitle>서울에 유명한 명소를 확인하세요</S.SubTitle>
+      <S.SubTitle>Check out the famous attractions in Seoul!</S.SubTitle>
 
       <S.PlacesWrapper>
         {places.map((place) => (

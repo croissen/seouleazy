@@ -32,7 +32,7 @@ function TK() {
         <S.SectionTitle>Tasty Korea</S.SectionTitle>
         <S.ReadMore onClick={goTastyKoreaPage}>Read More →</S.ReadMore>
       </S.TitleWrapper>
-      <S.SubTitle>한국의 대표 음식과 가격을 확인하세요</S.SubTitle>
+      <S.SubTitle>Check out Korea's representative foods and their prices!</S.SubTitle>
 
       <S.PlacesWrapper>
         {foods.map((food) => (
