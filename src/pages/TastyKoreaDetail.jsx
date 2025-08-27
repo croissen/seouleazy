@@ -10,7 +10,7 @@ function TastyKoreaDetail() {
 
   useEffect(() => {
     // 모든 JSON 파일을 불러와서 데이터를 찾도록 로직 변경
-    const jsonFiles = ['tastykorea.json', 'desserts.json', 'conveniencefoods.json', 'halalfoods.json', 'owner_gallery.json']; // 모든 음식 JSON 파일 목록
+    const jsonFiles = ['tastykorea.json', 'desserts.json', 'conveniencefoods.json', 'halalfoods.json', 'ownergallery.json']; // 모든 음식 JSON 파일 목록
 
     const fetchData = async () => {
       let foundFood = null;

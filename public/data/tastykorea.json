@@ -154,13 +154,5 @@
     "img": "/img/food/gamjatang.jpg",
     "desc": "A spicy stew with pork backbone, potatoes, and napa cabbage. 🥔 Great for hangovers too!",
     "content": "Gamjatang, with its spicy yet deep flavor, is perfect as a drinking snack or a hearty meal. The joy of stripping tender meat from the backbone, combined with fluffy potatoes and the spicy broth, is superb. Highly recommended as a hangover soup! 🍖🌶️"
-  },
-  {
-    "id": "hotteok",
-    "name": "Hotteok",
-    "price": "₩3,000",
-    "img": "/img/food/hotteok.jpg",
-    "desc": "A Korean pancake with chewy dough filled with sweet honey and nutty syrup. 🍯 Happiness in every bite when eaten warm!",
-    "content": "Hotteok, found on the streets on chilly days, is the very essence of winter romance. The crispy exterior and the sweet, flowing syrup inside create a fantastic harmony. Taking a bite of this magical snack melts away both the cold and any worries. 🧚‍♀️"
   }
 ]
