@@ -77,9 +77,8 @@ function HotPlaceDetail() {
     const info = place.nearestStationInfo.trim();
     
     const matchLineNumber = info.match(/^(Line\s(\d+))\s(.+)$/);
-    const matchMultiWordLine = info.match(/^((?:[A-Za-z]+(?:\-[A-Za-z]+)?(?:\s[A-Za-z]+)?)\sLine)\s(.+)$/);
+    const matchMultiWordLine = info.match(/^((?:[A-Za-z]+(?:-[A-Za-z]+)?(?:\s[A-Za-z]+)?)\sLine)\s(.+)$/);
     const matchAirportRailroad = info.match(/^(Airport Railroad)\s(.+)$/);
-    const matchGyeonguiJungang = info.match(/^(Gyeongui-Jungang Line)\s(.+)$/);
     const matchShinbundang = info.match(/^(Shinbundang Line)\s(.+)$/);
 
     if (matchLineNumber) {

@@ -125,3 +125,52 @@ export const PageButton = styled.button`
     cursor: not-allowed;
   }
 `;
+// 기존 스타일들 아래에 추가해주세요!
+
+export const TabWrapper = styled.div`
+  display: flex;
+  
+  /* ✨ PC (큰 화면)에서는 가운데 정렬! ✨ */
+  justify-content: center; 
+
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0 0; /* 구분선과 버튼 사이의 패딩 */
+  gap: 10px; /* 탭 버튼들 사이 간격 */
+
+  /* ✨ 모바일 (작은 화면)에서는 좌우 스크롤 가능하게! ✨ */
+  @media (max-width: 768px) { /* 보통 768px을 모바일/태블릿 기준으로 많이 사용해! */
+    justify-content: flex-start; /* 탭이 넘칠 수 있으니 좌측 정렬로 변경! */
+    overflow-x: auto; /* 좌우 스크롤 허용! */
+    white-space: nowrap; /* 탭 버튼들이 줄바꿈되지 않게! */
+    -webkit-overflow-scrolling: touch; /* iOS 부드러운 스크롤 */
+    padding-bottom: 10px; /* 스크롤바가 생길 경우 대비해서 여백 추가 */
+
+    /* 스크롤바 숨기기 (모바일에서 깔끔하게 보이기 위함) */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+`;
+
+export const TabButton = styled.button`
+  background-color: transparent; /* 배경색 투명하게 */
+  border: none; /* 테두리 없음 */
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: ${props => (props.isActive ? '#6a5acd' : '#555')}; /* 활성화된 탭 색상 변경 (보라색 계열) */
+  border-bottom: ${props => (props.isActive ? '2px solid #6a5acd' : '2px solid transparent')}; /* 활성화된 탭 아래 선 강조 */
+  transition: all 0.3s ease; /* 부드러운 전환 효과 */
+  
+  &:hover {
+    color: #6a5acd; /* 호버 시 색상 변경 */
+  }
+
+  & + & { /* 탭 버튼들 사이 간격 */
+    margin-left: 20px;
+  }
+`;

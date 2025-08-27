@@ -7,41 +7,62 @@ function TastyKorea() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredFoods, setFilteredFoods] = useState([]);
 
-  // 페이지네이션 관련 상태
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
+
+  const [activeTab, setActiveTab] = useState('korean');
+
+  const tabDataMap = {
+    'korean': { name: 'Korean Food', file: 'tastykorea.json', subtitle: "Check out Korea's representative foods and their prices!" },
+    'dessert': { name: 'Dessert', file: 'desserts.json', subtitle: "Sweet treats from Korea and beyond!" },
+    'convenience': { name: 'Convenience Store', file: 'conveniencefoods.json', subtitle: "Explore popular Korean convenience store foods!" },
+    'halal': { name: 'Halal Food', file: 'halalfoods.json', subtitle: "Discover Halal-friendly foods available in Korea!" },
+    'owner_gallery': { name: "Owner's Gallery", file: 'ownergallery.json', subtitle: "My Top Picks from Personal Culinary Journeys!" },
+  };
 
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/data/tastykorea.json')
-      .then(res => res.json())
+    const filePath = `/data/${tabDataMap[activeTab].file}`;
+    
+    fetch(process.env.PUBLIC_URL + filePath)
+      .then(res => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then(data => {
         setFoods(data);
         setFilteredFoods(data);
+        setSearchTerm('');
+        setCurrentPage(1);
       })
-      .catch(err => console.error(err));
-  }, []);
+      .catch(err => {
+        console.error(`Error fetching data for ${activeTab} tab:`, err);
+        setFoods([]);
+        setFilteredFoods([]);
+        setSearchTerm('');
+        setCurrentPage(1);
+      });
+  }, [activeTab]);
 
-  // 검색어 필터링
   useEffect(() => {
     const results = foods.filter(food =>
       food.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      food.price.toLowerCase().includes(searchTerm.toLowerCase())
+      (food.price && food.price.toLowerCase().includes(searchTerm.toLowerCase()))
     );
     setFilteredFoods(results);
-    setCurrentPage(1); // 검색 시 페이지 1로 초기화
+    setCurrentPage(1);
   }, [searchTerm, foods]);
 
-  // 페이지 변경 시 상단으로 스크롤
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentPage]);
 
   const handleChange = (e) => setSearchTerm(e.target.value);
-  const goDetail = (id) => navigate(`/tasty-korea-detail/${id}`);
+  const goDetail = (id) => navigate(`/tasty-korea-detail/${id}`); 
 
-  // 현재 페이지에 보여줄 데이터 계산
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentFoods = filteredFoods.slice(indexOfFirstItem, indexOfLastItem);
@@ -52,8 +73,20 @@ function TastyKorea() {
     <S.Section>
       <S.SectionTitle>Tasty Korea</S.SectionTitle>
 
+      <S.TabWrapper>
+        {Object.keys(tabDataMap).map((tabKey) => (
+          <S.TabButton
+            key={tabKey}
+            onClick={() => setActiveTab(tabKey)}
+            isActive={activeTab === tabKey}
+          >
+            {tabDataMap[tabKey].name}
+          </S.TabButton>
+        ))}
+      </S.TabWrapper>
+
       <S.SearchWrapper>
-        <S.SubTitle>Check out Korea's representative foods and their prices!</S.SubTitle>
+        <S.SubTitle>{tabDataMap[activeTab].subtitle}</S.SubTitle>
         <S.SearchInput
           type="text"
           placeholder="Search Food"
@@ -68,7 +101,7 @@ function TastyKorea() {
             <S.PlaceCard key={food.id} onClick={() => goDetail(food.id)}>
               <S.PlaceImg src={process.env.PUBLIC_URL + food.img} alt={food.name} />
               <S.PlaceTitle>{food.name}</S.PlaceTitle>
-              <S.PlaceDesc>{food.price}</S.PlaceDesc>
+              {food.price && <S.PlaceDesc>{food.price}</S.PlaceDesc>}
             </S.PlaceCard>
           ))
         ) : (
@@ -76,7 +109,6 @@ function TastyKorea() {
         )}
       </S.PlacesWrapper>
 
-      {/* 페이지네이션 버튼 */}
       {totalPages > 1 && (
         <S.PaginationWrapper>
           <S.PageButton
