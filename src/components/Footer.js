@@ -13,7 +13,7 @@ function Footer() {
   return (
     <S.FooterContainer>
       <S.FooterContent>
-        <p>© 2025 SeoulEZ. Content protected by SeoulEZ. No personal data. For high-quality images or any further inquiries, please contact us.</p>
+        <p>© 2025 SeoulEZ. All content is protected by SeoulEZ. Should you require high-quality images, or have any further inquiries, please feel free to contact us.</p>
         <S.SupportButton onClick={goToContact}>
           Contact
         </S.SupportButton>
