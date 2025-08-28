@@ -113,7 +113,7 @@ function HotPlaceDetail() {
   return (
     <S.Container>
       <S.BackButtonWrapper>
-        <S.BackButton onClick={() => navigate(-1)}>← Back</S.BackButton>
+        <S.BackButton onClick={() => { navigate(-1); window.scrollTo(0, 0);}}>← Back</S.BackButton>
       </S.BackButtonWrapper>
 
       <S.ContentWrapper>

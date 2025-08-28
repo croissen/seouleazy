@@ -13,6 +13,7 @@ export const Container = styled.div`
   font-family: 'Apple SD Gothic Neo', 'Nanum Gothic', sans-serif;
   color: #333;
   text-align: center;
+  min-height: 100vh;
 
   @media (max-width: 768px) {
     margin: 20px auto;

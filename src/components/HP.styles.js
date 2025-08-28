@@ -6,7 +6,7 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  background-color:rgb(233, 231, 230);
   @media (max-width: 768px) {
     padding: 0 4%;
   }

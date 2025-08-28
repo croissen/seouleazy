@@ -16,7 +16,7 @@ function TastyKorea() {
     'korean': { name: 'Korean Food', file: 'tastykorea.json', subtitle: "Check out Korea's representative foods and their prices!" },
     'dessert': { name: 'Dessert', file: 'desserts.json', subtitle: "Sweet treats from Korea and beyond!" },
     'convenience': { name: 'Convenience Store', file: 'conveniencefoods.json', subtitle: "Explore popular Korean convenience store foods!" },
-    'halal': { name: 'Halal Food', file: 'halalfoods.json', subtitle: "Discover Halal-friendly foods available in Korea!" },
+    // 'halal': { name: 'Halal Food', file: 'halalfoods.json', subtitle: "Discover Halal-friendly foods available in Korea!" },
     'owner_gallery': { name: "Owner's Gallery", file: 'ownergallery.json', subtitle: "My Top Picks from Personal Culinary Journeys!" },
   };
 

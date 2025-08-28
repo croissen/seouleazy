@@ -5,6 +5,7 @@ export const Container = styled.div`
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overscroll-behavior-y: auto;
+  
 `;
 
 /* 공통 섹션 */

@@ -1,80 +1,35 @@
-// Contact.jsx
-import React, { useState } from 'react';
+// Contact.jsx (수정된 코드)
+import React from 'react';
+import { useNavigate, Outlet, useLocation } from 'react-router-dom'; // Outlet, useNavigate, useLocation 추가
 import * as S from './Contact.styles';
 
 const Contact = () => {
-  const [activeSection, setActiveSection] = useState('inquiry');
+  const navigate = useNavigate();
+  const location = useLocation(); // 현재 URL 경로를 알기 위해 사용
 
   return (
     <S.Container>
       {/* 버튼 선택 영역 */}
       <S.ButtonContainer>
         <S.Button
-          onClick={() => setActiveSection('inquiry')}
-          active={activeSection === 'inquiry'}
+          onClick={() => navigate('/contact/qna')} // 클릭 시 URL 변경
+          // URL 경로에 따라 active 상태 설정
+          active={location.pathname === '/contact' || location.pathname === '/contact/qna'}
         >
           Ads & Inquiries
         </S.Button>
         <S.Button
-          onClick={() => setActiveSection('donation')}
-          active={activeSection === 'donation'}
+          onClick={() => navigate('/contact/donation')} // 클릭 시 URL 변경
+          // URL 경로에 따라 active 상태 설정
+          active={location.pathname === '/contact/donation'}
         >
           Donation
         </S.Button>
       </S.ButtonContainer>
 
-      {/* 내용 영역 */}
+      {/* 내용 영역 - 이제 여기에 자식 라우트의 내용이 렌더링됩니다! */}
       <S.ContentSection>
-        {activeSection === 'inquiry' ? (
-          <div>
-            <S.SectionTitle>💌 Ads & Inquiries</S.SectionTitle>
-            <S.SectionText>
-              If you have any questions or partnership inquiries, feel free to reach out!
-              Please use the form below.
-            </S.SectionText>
-            <S.EmailLink
-              href="https://forms.gle/uNw63SJ6v3CHmsnT9"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <S.HighlightText>Go to Ads & Inquiries Form</S.HighlightText>
-            </S.EmailLink>
-            <S.SectionText small>
-              * We aim to respond within 2–3 business days!
-            </S.SectionText>
-          </div>
-        ) : (
-          <div>
-            <S.SectionTitle>💖 Donation</S.SectionTitle>
-            <S.SectionText>
-              To help our project grow and create even better content,
-              even a small contribution makes a big difference! 
-              Thank you so much! 🙏
-            </S.SectionText>
-
-            {/* 한국 계좌 정보 */}
-            <S.DonationInfo>
-              <p>IBK Bank</p>
-              <p>97303748201019 (Seungmin Kwak)</p>
-            </S.DonationInfo>
-
-            {/* Ko-fi 버튼 */}
-            <S.DonationInfo>
-              <p>Or support us via Ko-fi:</p>
-              <S.KofiButton
-                href="https://ko-fi.com/seoulez"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ☕ Support on Ko-fi
-              </S.KofiButton>
-            </S.DonationInfo>
-
-            <S.SectionText small>
-              * We sincerely thank everyone who supports us! You are amazing! 👍
-            </S.SectionText>
-          </div>
-        )}
+        <Outlet /> {/* 자식 라우트의 컴포넌트가 이곳에 표시돼요! */}
       </S.ContentSection>
     </S.Container>
   );
