@@ -13,17 +13,17 @@ function More() {
 
   return (
     <S.Section> 
-      <S.TopContentWrapper> 
+      <S.TopContentWrapper>
         <S.ContentBlock bgImg={process.env.PUBLIC_URL + "/img/calc.jpg"}>
-          <h2>합리적인 한국 여행을 위하여</h2>
-          <p>여행비를 시뮬레이션 하세요!</p>
-          <S.Button onClick={() => goToPage("/trip-calc")}>여행계산기</S.Button>
+          <h2>For a Smart Trip to Korea</h2>
+          <p>Simulate your travel expenses!</p>
+          <S.Button onClick={() => goToPage("/trip-calc")}>Trip Calculator</S.Button>
         </S.ContentBlock>
 
         <S.ContentBlock bgImg={process.env.PUBLIC_URL + "/img/tip.jpg"}>
-          <h2>모르면 후회할 다양한 정보</h2>
-          <p>미리 확인하세요!</p>
-          <S.Button onClick={() => goToPage("/honey-tip")}>꿀팁 확인하러 가기</S.Button>
+          <h2>Essential Information You Won't Want to Miss</h2>
+          <p>Check them out beforehand!</p>
+          <S.Button onClick={() => goToPage("/honey-tip")}>Check Out Honey Tips</S.Button>
         </S.ContentBlock>
       </S.TopContentWrapper>
 
